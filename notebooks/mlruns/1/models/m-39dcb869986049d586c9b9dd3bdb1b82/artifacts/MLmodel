@@ -1,0 +1,22 @@
+artifact_path: file:c:/Users/HP/Desktop/Tenx_challenge_folder/Credit-Risk-Probability-Model-for-Alternative-Data-Week-4-Challenge-/notebooks/mlruns/1/models/m-39dcb869986049d586c9b9dd3bdb1b82/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.13.5
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.6.1
+mlflow_version: 3.7.0
+model_id: m-39dcb869986049d586c9b9dd3bdb1b82
+model_size_bytes: 8526445
+model_uuid: m-39dcb869986049d586c9b9dd3bdb1b82
+prompts: null
+run_id: 0d98236308d048a0923631864a00221c
+utc_time_created: '2025-12-15 08:04:36.631441'
